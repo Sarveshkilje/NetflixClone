@@ -143,7 +143,7 @@ fetch(requests.fetchActionMovies)
 
   const title = document.createElement("h2");
   title.className ="row__title";
-  title.innerText = "Top Rated";
+  title.innerText = "Action Movies";
   row.appendChild(title);
   
   const row_posters =document.createElement("div");
@@ -178,7 +178,7 @@ fetch(requests.fetchComedyMovies)
 
   const title = document.createElement("h2");
   title.className ="row__title";
-  title.innerText = "Top Rated";
+  title.innerText = "Comedy Movies";
   row.appendChild(title);
   
   const row_posters =document.createElement("div");
@@ -213,7 +213,7 @@ fetch(requests.fetchHorrorMovies)
 
   const title = document.createElement("h2");
   title.className ="row__title";
-  title.innerText = "Top Rated";
+  title.innerText = "Horror Movies";
   row.appendChild(title);
   
   const row_posters =document.createElement("div");
@@ -248,7 +248,7 @@ fetch(requests.fetchRomanceMovies)
 
   const title = document.createElement("h2");
   title.className ="row__title";
-  title.innerText = "Top Rated";
+  title.innerText = "R0mantic Movies";
   row.appendChild(title);
   
   const row_posters =document.createElement("div");
@@ -269,3 +269,4 @@ fetch(requests.fetchRomanceMovies)
     row_posters.appendChild(poster);
    });
 })
+

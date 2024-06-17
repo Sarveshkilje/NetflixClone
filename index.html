@@ -16,7 +16,7 @@
             </a>
         </div>
         <div class="nav_right">
-            <img class="nav_logo" src="./assets/profilepic.webp" alt="">
+            <img class="nav_avatar" src="./assets/profilepic.webp" alt="">
         </div>
     </div>
 
@@ -49,6 +49,12 @@
         </div>
       </div>
 
-      
+      <script>
+        window.addEventListener("scroll",function(){
+
+            var nav = document.querySelector(".nav");
+            nav.classList.toggle("active",window.scrollY > 0);
+          })
+      </script>
 </body>
 </html>
